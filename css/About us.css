@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+container{
+    display: flex;
+    flex-direction: column;
+}
+.underconstruction{
+    font-size:5vw;
+}
+
+.vision {
+  width: 100%;
+  height: 800px;
+}
+
+.image {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+
+}
+
+.heading {
+  float: left;
+  margin: 12% 10%;
+  width: auto;
+  color: black;
+  font-size: 500%;
+  opacity: 30%;
+  z-index: 2;
+  background-color: pink;
+}
+
+.quote {
+  float: right;
+  width: auto;
+  margin: 5%;
+  color: black;
+  opacity: 50%;
+  z-index: 3;
+  background-color: blue;
+}
