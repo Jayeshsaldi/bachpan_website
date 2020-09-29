@@ -1,6 +1,8 @@
 body {
+  background: "Survivor.jpg";
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
 }
 container{
     display: flex;
@@ -12,7 +14,7 @@ container{
 
 /* Main class */
 .aboutus {
-  font-family: "Comic Sans MS", cursive, sans-serif;
+
   margin: 0;
   padding: 0;
 
@@ -24,13 +26,21 @@ container{
 }
 
 #vision {
-  background-image: image("Survivor.jpg");
+  background-image: url('../static/Aboutus-images/childrenvision.jpg');
+  background-size: cover;
   background-color: #cccccc;
 }
 
 #mission {
-  background-image: image("Our vision image.jpg");
+  background-image: url('../static/Aboutus-images/grassmission.jpg');
+  background-size: cover;
   background-color: gray;
+}
+
+#foundersNote {
+  background-image: url('../static/Aboutus-images/founder.jpg');
+  background-size: cover;
+  background-color: #cccccc;
 }
 
 /* Image from our vision */
