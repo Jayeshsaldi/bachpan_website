@@ -8,9 +8,6 @@ container{
     display: flex;
     flex-direction: column;
 }
-.underconstruction{
-    font-size:5vw;
-}
 
 /* Main class */
 .aboutus {
@@ -23,22 +20,23 @@ container{
   border: 5px;
   border-width: medium;
   border-color: black;
+  background-size: cover;
 }
 
 #vision {
-  background-image: url('../static/Aboutus-images/vision1.jpg');
+  /* background-image: url('../static/Aboutus-images/vision1.jpg'); */
   background-size: cover;
   background-color: #cccccc;
 }
 
 #mission {
-  background-image: url('../static/Aboutus-images/grassmission.jpg');
+  /* background-image: url('../static/Aboutus-images/grassmission.jpg'); */
   background-size: cover;
   background-color: gray;
 }
 
 #foundersNote {
-  background-image: url('../static/Aboutus-images/founder.jpg');
+  /* background-image: url('../static/Aboutus-images/founder.jpg'); */
   background-size: cover;
   background-color: #cccccc;
 }
@@ -46,7 +44,6 @@ container{
 /* Image from our vision */
 .image {
   margin: 0;
-
   border: 0;
   width: 100%;
   height: auto;
@@ -69,7 +66,7 @@ container{
   z-index: 2;
 }
 
-/* Quote from our vision */
+/* Quote from our vision, mission */
 .quote {
   margin: 0 auto;
   padding: 3% 10% 12% 10%;
@@ -80,6 +77,7 @@ container{
   text-align: center;
 }
 
+/* Founder's note */
 .note {
   margin: 0 auto;
   padding: 3% 0% 6% 0%;
