@@ -24,19 +24,19 @@ container{
 }
 
 #vision {
-  /* background-image: url('../static/Aboutus-images/vision1.jpg'); */
+  background-image: url('../static/Aboutus-images/vision1.jpg');
   background-size: cover;
   background-color: #cccccc;
 }
 
 #mission {
-  /* background-image: url('../static/Aboutus-images/grassmission.jpg'); */
+  background-image: url('../static/Aboutus-images/grassmission.jpg');
   background-size: cover;
   background-color: gray;
 }
 
 #foundersNote {
-  /* background-image: url('../static/Aboutus-images/founder.jpg'); */
+  background-image: url('../static/Aboutus-images/founder.jpg');
   background-size: cover;
   background-color: #cccccc;
 }
