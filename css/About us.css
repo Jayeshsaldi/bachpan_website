@@ -26,7 +26,7 @@ container{
 }
 
 #vision {
-  background-image: url('../static/Aboutus-images/childrenvision.jpg');
+  background-image: url('../static/Aboutus-images/vision1.jpg');
   background-size: cover;
   background-color: #cccccc;
 }
@@ -73,9 +73,17 @@ container{
 .quote {
   margin: 0 auto;
   padding: 3% 10% 12% 10%;
-  width: 60%;
+  width: 80%;
   color: black;
   opacity: 99%;
   z-index: 3;
   text-align: center;
+}
+
+.note {
+  margin: 0 auto;
+  padding: 3% 0% 6% 0%;
+  width: 90%;
+  color: black;
+  text-align: justify;
 }
