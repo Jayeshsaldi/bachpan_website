@@ -68,6 +68,7 @@ container{
 
 /* Quote from our vision, mission */
 .quote {
+  font-size: 1.8vw;
   margin: 0 auto;
   padding: 3% 10% 12% 10%;
   width: 80%;
